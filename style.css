@@ -37,7 +37,7 @@ body{
 
 #disney{
     margin-left: 100px;
-    background: radial-gradient(circle at 45% 0%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+    background: radial-gradient(circle at 50% 95%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
 }
 
 #disneykep{
@@ -76,13 +76,23 @@ button{
     margin-top: -251px;
 }
 
-.bal2{
+.ballent{
     width: 450px;
     height: 250px;
     display: flex;
     margin-left: 100px;
     justify-content: center;
 }
+
+.balfent{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    margin-bottom: -205px;
+}
+
 
 .jobb{
     width: 450px;
@@ -93,13 +103,23 @@ button{
     margin-top: -251px;
 }
 
-.jobb2{
+.jobblent{
     width: 450px;
     height: 250px;
     display: flex;
     margin: auto;
     margin-right: 100px;
     justify-content: center;
+}
+
+.jobbfent{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-right: 100px;
+    justify-content: center;
+    margin-bottom: -205px;
 }
 
 .kozep{
@@ -110,12 +130,21 @@ button{
     margin-top: -201px;
 }
 
-.kozep2{
+.kozeplent{
     width: 650px;
     height: 200px;
     display: flex;
     margin: auto;
     justify-content: center;
+}
+
+.kozepfent{
+    width: 650px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: -201px;
 }
 
 #gomb{
@@ -125,13 +154,30 @@ button{
 #szoveg{
     font-size: 65px;
     display: flex;
-    margin-top: -320px;
     color: gray;
+    margin-top: 175px;
 }
 
 #skyszoveg{
     font-size: 65px;
     display: flex;
-    margin-top: -270px;
-    color: gray
+    color: gray;
+    margin-top: 130px;
+}
+
+h3{
+    font-size: 40px;
+    margin-right: auto;
+    margin-top: 5px;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: purple;
 }
