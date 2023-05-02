@@ -20,6 +20,14 @@ div{
     margin-top: 200px;
 }
 
+.keret{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+}
+
 #hbo{
     margin-left: 100px;
     background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
@@ -41,16 +49,81 @@ div{
 }
 
 #sky{
-    margin-right: 100px;
+    width: 650px;
+    height: 200px;
     background: linear-gradient(68.8deg, rgb(174, 33, 255) 15.4%, rgb(255, 33, 33) 111.3%);
 }
 
 #skykep{
-    
+    width: 650px;
+    height: 200px;
 }
 
 img{
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+button{
+    background: transparent;
+    width: 450px;
+}
+
+.bal{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: -251px;
+}
+
+.bal2{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
+}
+
+.jobb{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-right: 100px;
+    margin-top: -251px;
+}
+
+.jobb2{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.kozep{
+    width: 650px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    margin-top: -201px;
+}
+
+.kozep2{
+    width: 650px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+#gomb{
+    width: 650px;
+}
+
+h2{
+    text-align: center;
+    display: flex;
 }
