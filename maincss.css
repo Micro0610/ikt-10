@@ -8,9 +8,6 @@ body{
 
 }
 
-div{
-    border: 1px solid red;
-}
 
 .kepek{
     width: 450px;
@@ -83,8 +80,8 @@ button{
     width: 450px;
     height: 250px;
     display: flex;
-    margin: auto;
     margin-left: 100px;
+    justify-content: center;
 }
 
 .jobb{
@@ -102,6 +99,7 @@ button{
     display: flex;
     margin: auto;
     margin-right: 100px;
+    justify-content: center;
 }
 
 .kozep{
@@ -117,13 +115,23 @@ button{
     height: 200px;
     display: flex;
     margin: auto;
+    justify-content: center;
 }
 
 #gomb{
     width: 650px;
 }
 
-h2{
-    text-align: center;
+#szoveg{
+    font-size: 65px;
     display: flex;
+    margin-top: -320px;
+    color: gray;
+}
+
+#skyszoveg{
+    font-size: 65px;
+    display: flex;
+    margin-top: -270px;
+    color: gray
 }

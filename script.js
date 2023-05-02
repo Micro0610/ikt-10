@@ -10,6 +10,6 @@ function disneylink(){
     location.href="https://www.google.com"
 }
 
-function skyshowtimelink(){
+function skylink(){
     location.href="https://www.google.com"
 }
