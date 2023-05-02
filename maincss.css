@@ -15,4 +15,42 @@ div{
 .kepek{
     width: 450px;
     height: 250px;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#hbo{
+    margin-left: 100px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+#netflix{
+    margin-right: 100px;
+    background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+}
+
+#disney{
+    margin-left: 100px;
+    background: radial-gradient(circle at 45% 0%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
+}
+
+#disneykep{
+    width: 450px;
+    height: 250px;
+}
+
+#sky{
+    margin-right: 100px;
+    background: linear-gradient(68.8deg, rgb(174, 33, 255) 15.4%, rgb(255, 33, 33) 111.3%);
+}
+
+#skykep{
+    
+}
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
