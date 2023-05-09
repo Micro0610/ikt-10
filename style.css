@@ -8,6 +8,12 @@ body{
 
 }
 
+div{
+    border: 1px solid red;
+    display: block;
+}
+
+
 
 .kepek{
     width: 450px;
@@ -23,6 +29,11 @@ body{
     display: flex;
     margin: auto;
     margin-top: 200px;
+}
+
+#video{
+    width: 450px;
+    height: 246px;
 }
 
 #hbo{
@@ -180,4 +191,13 @@ a{
 a:hover{
     text-decoration: underline;
     color: purple;
+}
+
+#hbovideo{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-right: 100px;
+    margin-top: -251px;
 }
