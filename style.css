@@ -193,6 +193,14 @@ a:hover{
     color: purple;
 }
 
+.kozeplentebb{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
 #jobbvideo{
     width: 450px;
     height: 250px;
