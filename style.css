@@ -193,11 +193,20 @@ a:hover{
     color: purple;
 }
 
-#hbovideo{
+#jobbvideo{
     width: 450px;
     height: 250px;
     display: flex;
     margin: auto;
     margin-right: 100px;
+    margin-top: -251px;
+}
+
+#balvideo{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-left: 100px;
     margin-top: -251px;
 }
