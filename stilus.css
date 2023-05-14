@@ -1,0 +1,14 @@
+p{
+    font: size 30px;
+    line-height: 1.5;
+}
+body{
+    font-family: Arial,  sans-serif;
+    margin: auto;
+   text-align: center; 
+background-color: darkgrey;
+color: black;
+}
+h1{
+    text-align: center;
+}
