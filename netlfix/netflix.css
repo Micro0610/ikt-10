@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    text-decoration: white;
+    
+    
+}
+
+.netlifx{
+    width: 600px;
+    display: flex;
+    margin: auto;
+}
+p{
+    color: white;
+    font-family:myfont; 
+    text-align: justify;
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(BebasNeue-Regular.ttf)
+}
+  
+table{
+    font-family:myfont; 
+    color: white;
+
+}
+h2{
+    font-family:myfont; 
+    color: white;
+    text-decoration: none;
+}
+.elon musk{
+    width: 100px;
+
+}
+h3{
+    font-family:myfont; 
+    color: white;
+    text-decoration: none;
+}
+
