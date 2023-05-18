@@ -1,5 +1,4 @@
 html{
-	background-color:lavender;
 	color: blue;
 	padding: 20px 20px;
 }
@@ -29,6 +28,11 @@ p{
 	width: 230px;
 	
 	
+}
+
+body{
+    background: linear-gradient(90deg, rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%);
+
 }
 
 h1{
