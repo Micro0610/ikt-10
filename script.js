@@ -1,5 +1,5 @@
 function hbolink(){
-    location.href="https://www.google.com"
+    location.href="norbi.html"
 }
 
 function netflixlink(){
@@ -7,9 +7,9 @@ function netflixlink(){
 }
 
 function disneylink(){
-    location.href="https://www.google.com"
+    location.href="dani.html"
 }
 
 function skylink(){
-    location.href="https://www.google.com"
+    location.href="boti.html"
 }
