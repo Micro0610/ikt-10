@@ -1,12 +1,12 @@
 p{
-    font: size 30px;
+    font-size: 25px;
     line-height: 1.5;
 }
 body{
     font-family: Arial,  sans-serif;
     margin: auto;
    text-align: center; 
-background-color: darkgrey;
+   background: linear-gradient(90deg, rgb(86, 6, 190) 1.1%, rgb(10, 245, 253) 130.5%);
 color: black;
 }
 h1{
