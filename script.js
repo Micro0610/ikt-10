@@ -1,5 +1,5 @@
 function hbolink(){
-    location.href="norbi.html"
+    location.href="/norbi/norbi.html"
 }
 
 function netflixlink(){
