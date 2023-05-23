@@ -32,8 +32,8 @@ header {
 h1 {
 	font-size: 36px;
 	margin: 0;
-	flex-grow: 1; /* Add this line to allow the title to take up remaining space */
-  }
+	flex-grow: 1;
+}
 
 h2 {
 	font-size: 24px;
@@ -131,7 +131,7 @@ li a {
 .menu {
 	position: relative;
 	display: inline-block;
-	margin-right: auto; /* Move the menu div to the left side */
+	margin-right: auto;
 }
   
 .menudolog {
