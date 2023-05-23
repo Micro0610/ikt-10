@@ -3,7 +3,7 @@ function hbolink(){
 }
 
 function netflixlink(){
-    location.href="https://www.google.com"
+    location.href="/netlfix/netflix.html"
 }
 
 function disneylink(){

@@ -5,9 +5,9 @@ p{
 body{
     font-family: Arial,  sans-serif;
     margin: auto;
-   text-align: center; 
-   background: linear-gradient(90deg, rgb(86, 6, 190) 1.1%, rgb(10, 245, 253) 130.5%);
-color: black;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%);
+    color: black;
 }
 h1{
     text-align: center;
