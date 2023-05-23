@@ -10,20 +10,30 @@ header {
 	background-color: #1c1c1e;
 	color: white;
 	padding: 20px;
-	text-align: center;
+	display: flex;
+	align-items: center;
 }
 
+.left-section {
+	margin-right: auto;
+}
 
-main {
+.back-link {
+	color: white;
+	text-decoration: none;
+}
+
+.hbo-title {
+	font-size: 36px;
 	margin: 0 auto;
-	max-width: 800px;
-	padding: 20px;
+	text-align: center;
 }
 
 h1 {
 	font-size: 36px;
 	margin: 0;
-}
+	flex-grow: 1; /* Add this line to allow the title to take up remaining space */
+  }
 
 h2 {
 	font-size: 24px;
@@ -33,7 +43,8 @@ h2 {
 ul {
 	
     list-style-type: none;
-    margin: auto;
+	margin-left: auto;
+	margin-right: auto;
     padding: 0;
     overflow: hidden;
     display: flex;
@@ -42,8 +53,7 @@ ul {
 }
 
 li {
-	
-    float: left;
+	margin: auto;
     
 }
 
@@ -55,11 +65,14 @@ a {
 }
 a:hover{
     text-decoration:underline;
-    color:black
+    color: lightskyblue;
 }
 img {
 	width: 240px;
 	height: 360px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 	object-fit: cover;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -97,11 +110,6 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
-
-#vissza{
-	margin-left: 600px;
-}
-
 @media (max-width: 768px) {
 	h1 {
 		font-size: 24px;
@@ -117,4 +125,44 @@ li a {
 		height: auto;
 	}
 
+}
+
+
+.menu {
+	position: relative;
+	display: inline-block;
+	margin-right: auto; /* Move the menu div to the left side */
+}
+  
+.menudolog {
+	display: none;
+	position: absolute;
+	background-color: gray;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	left: 0;
+	top: 100%;
+}
+.menugomb{
+	background-color: #04AA6D;
+  	color: white;
+  	padding: 16px;
+  	font-size: 16px;
+  	border: none;
+}
+.menudolog a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.menudolog a:hover{
+	background-color: #ddd;
+}
+.menu:hover .menudolog{
+	display: block;
+}
+.menu:hover .menugomb{
+	background-color: #3e8e41;
 }
